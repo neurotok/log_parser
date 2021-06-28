@@ -1,0 +1,188 @@
+Test case 'dEQP-VK.geometry.emit.triangle_strip_emit_3_end_2'..
+  NotSupported (Requested core feature is not supported: geometryShader at vktTestCase.cpp:682)
+
+Test case 'dEQP-VK.geometry.emit.triangle_strip_emit_3_end_2_emit_3_end_0'..
+  NotSupported (Requested core feature is not supported: geometryShader at vktTestCase.cpp:682)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.mat4_copy.out_of_alloc.oob_uniform_read'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _16[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _31[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.mat4_copy.out_of_alloc.oob_storage_read'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _16[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _31[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.mat4_copy.out_of_alloc.oob_storage_write'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _16[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _31[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_uniform_read.range_1_byte'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_uniform_read.range_3_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_uniform_read.range_4_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_uniform_read.range_32_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(32) has space for 32 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_read.range_1_byte'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_read.range_3_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_read.range_4_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_read.range_32_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(32) has space for 32 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_write.range_1_byte'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_write.range_3_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_write.range_4_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_sint.oob_storage_write.range_32_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _15[0] from buffer(2) with offset(0) and length(32) has space for 32 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_uniform_read.range_1_byte'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_uniform_read.range_3_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_uniform_read.range_4_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_uniform_read.range_32_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(32) has space for 32 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_read.range_1_byte'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_read.range_3_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_read.range_4_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_read.range_32_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(32) has space for 32 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+  Fail (Invalid value(s) found)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_write.range_1_byte'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_write.range_3_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_write.range_4_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(16) has space for 16 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r32_uint.oob_storage_write.range_32_bytes'..
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _28[0] from buffer(1) with offset(0) and length(64) has space for 64 bytes, but argument has a length(65536).'
+validateFunctionArguments, line 3727: error 'Vertex Function(main0): argument _14[0] from buffer(2) with offset(0) and length(32) has space for 32 bytes, but argument has a length(65536).'
+  Pass (All values OK)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_uniform_read.range_1_byte'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_uniform_read.range_3_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_uniform_read.range_4_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_uniform_read.range_32_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_read.range_1_byte'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_read.range_3_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_read.range_4_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_read.range_32_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_write.range_1_byte'..
+  Fail (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_write.range_3_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_write.range_4_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_sint.oob_storage_write.range_32_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_uint.oob_uniform_read.range_1_byte'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_uint.oob_uniform_read.range_3_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_uint.oob_uniform_read.range_4_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
+
+Test case 'dEQP-VK.robustness.buffer_access.vertex.vec4_copy.r64_uint.oob_uniform_read.range_32_bytes'..
+  NotSupported (VK_EXT_shader_image_atomic_int64 is not supported at vktTestCase.cpp:590)
