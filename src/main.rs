@@ -1,6 +1,19 @@
 use regex::Regex;
 use std::fs;
 use std::io::prelude::*;
+use std::error::Error;
+use csv::Writer;
+
+fn save_as_csv(r: Vec<(String, String, String)>) -> Result<(), Box<dyn Error>> {
+    let mut wtr = Writer::from_path("foo.csv")?;
+
+    for record in r {
+        wtr.write_record(&[record.0.as_str(), record.2.as_str(), record.1.as_str()])?;
+    }
+
+    wtr.flush()?;
+    Ok(())
+}
 
 fn main() {
     let mut f = fs::File::open("test.txt").unwrap();
@@ -52,8 +65,6 @@ fn main() {
         }
     }
 
-    for case in parsed_cases {
-        println!("{}\n{}\n{}\n", case.0, case.1, case.2);
-    }
+    save_as_csv(parsed_cases).expect("Error writing to file");
 
 }
