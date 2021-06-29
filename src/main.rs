@@ -5,19 +5,25 @@ use std::error::Error;
 use std::fs;
 use std::io::prelude::*;
 
-fn save_report_as_csv(r: Vec<(String, String,  String)>) -> Result<(), Box<dyn Error>> {
+fn save_work(r: Vec<(String, String,  String)>) -> Result<(), Box<dyn Error>> {
+
+    let mut ff = fs::File::create("failed.txt")?;
+
     let mut wtr = Writer::from_path("report.csv")?;
+    
     wtr.write_record(&["Failed test", "Logged cause of error", "Optional validation errors and others and other logged information "])?;
 
     for record in r {
         wtr.write_record(&[record.0.as_str(), record.1.as_str(), record.2.as_str()])?;
+
+        let mut test_name = record.0;
+        test_name.push_str("\n");
+        ff.write_all(test_name.as_bytes()).unwrap();
     }
 
     wtr.flush()?;
     Ok(())
 }
-
-
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -40,6 +46,8 @@ fn main() {
             case.clear();
         }
     }
+
+    println!("Found: {} cases", cases.len());
 
     let case_name_re = Regex::new(r"Test case '(.*)'").unwrap();
     let fail_couse_re = Regex::new(r"Fail \((.*?)\)$").unwrap();
@@ -77,8 +85,7 @@ fn main() {
         }
     }
 
-    println!("Found {} failing test", parsed_cases.len());
+    println!("Found: {} failing tests", parsed_cases.len());
 
-
-    save_report_as_csv(parsed_cases).expect("Error writing to file");
+    save_work(parsed_cases).expect("Error writing to file");
 }
