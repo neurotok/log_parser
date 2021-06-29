@@ -1,6 +1,6 @@
 # log_parser
 
-Parsing console output from Vulkan CTS and generate list of failing tests and report csv format.
+Parsing console output from Vulkan CTS and generate list of failing tests and report in csv format.
 
 Usage
 
