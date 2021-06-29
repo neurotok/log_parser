@@ -8,4 +8,5 @@ Usage
 2. drop your console output in root direcotry of this repo
 3. cargo run --release console_output.txt
 4. report.csv and failed.txt files will be generated in the root direcotry
-5. You can now re-run CTS only for tests that was faling by running .\deqp-vk --deqp-log-filename=failed.txt 
+5. you can now re-run CTS only for tests that was faling by running .\deqp-vk --deqp-log-filename=failed.txt
+6. import your report.csv file to your favorite spreadsheet app for further work
